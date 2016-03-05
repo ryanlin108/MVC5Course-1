@@ -15,6 +15,7 @@ namespace MVC5Course.Controllers
 
         public ActionResult About()
         {
+            throw new ArgumentNullException("123");
             ViewBag.Message = "Your application description page.";
 
             return View();
